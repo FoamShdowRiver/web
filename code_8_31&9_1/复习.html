@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"> <!--  en 英语  zh-CN 中文 ja-jp 日文-->
+    <head>
+        <meta charset="utf-8"><!-- ascll 美国信息交换标准代码  ISO-8859-1 拉丁字母表的字符编码  GB2312 汉字编码字符集  UTF-8 Unicode 万国码字符编码-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>复习知识点</title>    
+    </head>
+    <body>
+        <h1>第一目</h1>
+        <p>
+            <center>
+                <b>hello</b> <!-- 加粗 ： strong / b --> 
+                <em>world</em> <!--倾斜：em / i --> 
+                <br /> <!--换行-->
+                <del>i am a boy</del> <!-- 删除 ： del / s-->
+                <hr /> <!--分割线-->
+                <u>下划线</u>
+                <sub>下标</sub>
+                <sup>上标</sup>
+            </center>
+        </p>
+        <hr color="red" width="200" align="right" noshade>
+        <p>&lt;特殊符号&gt;</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;空格受字体影响</p>
+        <p>&emsp;宽度为一个中文宽度</p>
+        <p>这是一歌版权&copy;</p>
+        <p>这是一个商标&reg;
+            <br>
+            这是另一个商标&trade;
+        </p>
+        
+        <div>
+            <!--独占一行-->
+            <p>激流<span style="color:gray;">river</span></p>
+        </div>
+
+        <ul type="disc"> <!-- ul 里只能放 li  //type,disc circle square none--> 
+            <li>无序列表</li>
+            <li>无序列表</li>
+        </ul>
+
+        <hr noshade>
+
+        <ol type="A" start="4"> <!--type类型 start  开始-->
+            <li>有序列表</li>
+            <li>有序列表</li>
+            <li>有序列表</li>
+        </ol>
+        <hr>
+
+        <dl>
+            <dt>这是图片</dt>
+            <dd>这是文字</dd> 
+        </dl>
+
+        <dl>
+            <dt>自定义列表</dt>
+            <dd>自定义列表</dd>
+        </dl>
+       
+        <hr>
+        <!-- ../上一级文件    ../../上一级的上一级的文件-->
+        <img src="../code_8_29&30/img/feiman.jpg" >  
+        <hr noshade>
+
+        <img src="../code_8_29&30/img/feimanjiqiao2.png" title="鼠标悬停上之后的提示信息" alt="图片不显示之后（加载失败）的提示信息" width="300px" height="200px" />
+        <hr>
+        <!-- _self 默认位置打开  _blank 新窗口打开-->
+        <a href="../code_8_29&30/img/feimanjiqiao2.png" title="鼠标悬停上去之后的信息" target="_self">一个图片</a>
+        
+        <br>
+        <a href="../code_8_29&30/img/feimanjiqiao2.png" title="鼠标悬停上去之后的信息" target="_self"><img src="../code_8_27&28/img/2.jpg" title="这是一张图片" alt="图片加载不出来"></a>
+        <hr>
+
+        <table border="1"  height="300px" width="200px" align="center" bordercolor="yellow ">  <!-- 创建表格 -->
+            <tr align="center" height="100px" width="100px"> <!-- tr 表示行 -->
+                <td>1</td> <!-- td 表示列 -->
+                <td>2</td>
+            </tr>
+            <tr align="center" height="100px" width="100px">
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr align="center" height="100px" width="100px"> 
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </body>
+</html>
