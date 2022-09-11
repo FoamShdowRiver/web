@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #iddiv{
+            background-color: green;
+        }
+      .cdiv{
+            background-color: red;
+            
+        }
+        div{
+            background-color: yellow;
+            
+        }
+        
+        .out{
+            color:saddlebrown;
+        }
+
+        div .outs{
+            color:rebeccapurple;
+        }
+        div p{
+            color:pink;
+        }
+
+        p{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- 如果遇到属性冲突，会选择权重高的来执行 -->
+    <div class="cdiv" id="iddiv" style="background-color: brown;">12321
+        <p class="outs">111</p>
+    </div>
+    <p>132</p>
+</body>
+</html>

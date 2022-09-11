@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 后代选择器，包含选择器 -->
+    <style>
+        /* 从右至左 先找出p标签 在把外面包含div标签加上格式 */
+        div p{
+            background-color:chartreuse;
+        }
+        p b{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>111111111</p>
+    </div>
+
+    <p>
+        <b>1111111</b>
+    </p>
+
+    <div>
+        <b>11111111</b>
+    </div>
+</body>
+</html>
